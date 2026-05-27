@@ -4,6 +4,7 @@
 
 - Disciplina: DGT2816 - Interacao com sensores de smartphones e wearables
 - Projeto: Doma Assist Wear (Wear OS)
+- Desenvolvedor: David Lins Amaral
 - Objetivo: app para comunicacao/acessibilidade com foco em uso de audio e deteccao de saidas de audio.
 
 ## 2. Microatividades executadas no projeto

@@ -2,6 +2,10 @@
 
 Projeto Wear OS baseado no roteiro fornecido para a disciplina, com foco em deteccao de saidas de audio, suporte a acessibilidade e integracao com Bluetooth.
 
+## Desenvolvedor
+
+- David Lins Amaral
+
 ## Nome do app
 
 - `Doma Assist Wear`
