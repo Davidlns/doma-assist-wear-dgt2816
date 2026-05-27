@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Documentacao do Projeto - Trabalho Pratico DGT2816</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 36px; line-height: 1.45; color: #111; }
+    h1, h2, h3 { margin-top: 24px; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 3px; }
+    ul, ol { margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Documentacao do Projeto - Trabalho Pratico DGT2816</h1>
+
+  <h2>1. Identificacao</h2>
+  <ul>
+    <li>Disciplina: DGT2816 - Interacao com sensores de smartphones e wearables</li>
+    <li>Projeto: ListaDeTarefas (Wear OS)</li>
+    <li>Objetivo: app para comunicacao/acessibilidade com foco em uso de audio e deteccao de saidas de audio.</li>
+  </ul>
+
+  <h2>2. Microatividades executadas no projeto</h2>
+
+  <h3>Microatividade 1 - Visao geral e melhores praticas</h3>
+  <ul>
+    <li>Ambiente estruturado para Android Studio.</li>
+    <li>Projeto preparado para execucao em emulador Wear OS.</li>
+  </ul>
+
+  <h3>Microatividade 2 - Novo projeto no Android Studio</h3>
+  <ul>
+    <li>Projeto Wear OS criado com base em <code>No Activity</code>.</li>
+    <li>Nome: <code>ListaDeTarefas</code>.</li>
+    <li>Pacote: <code>com.example.listadetarefas</code>.</li>
+    <li>Min SDK: API 30.</li>
+  </ul>
+
+  <h3>Microatividade 3 - Arquivos de logica e configuracoes</h3>
+  <ul>
+    <li><code>MainActivity.java</code> adicionada com interface e logica.</li>
+    <li><code>activity_main.xml</code> contendo <code>ListView</code> e <code>Button</code>.</li>
+    <li><code>AndroidManifest.xml</code> com permissoes e <code>intent-filter</code> MAIN/LAUNCHER.</li>
+    <li>Dependencias e configuracoes no Gradle.</li>
+  </ul>
+
+  <h3>Microatividade 4 - Criacao de emulador</h3>
+  <ul>
+    <li>Projeto pronto para executar no emulador Wear OS.</li>
+    <li>Evidencia visual deve ser anexada pelo aluno em <code>docs/evidencias/</code>.</li>
+  </ul>
+
+  <h3>Microatividade 5 - Capturas com app complementar</h3>
+  <ul>
+    <li>Roteiro de captura com app complementar previsto.</li>
+    <li>Evidencias visuais devem ser anexadas pelo aluno em <code>docs/evidencias/</code>.</li>
+  </ul>
+
+  <h2>3. Implementacao do Trabalho Pratico (audio e acessibilidade)</h2>
+
+  <h3>3.1 Deteccao de saida de audio</h3>
+  <ul>
+    <li><code>audioOutputAvailable(AudioDeviceInfo.TYPE_BUILTIN_SPEAKER)</code></li>
+    <li><code>audioOutputAvailable(AudioDeviceInfo.TYPE_BLUETOOTH_A2DP)</code></li>
+    <li>Enumeracao por <code>AudioManager.getDevices(AudioManager.GET_DEVICES_OUTPUTS)</code></li>
+  </ul>
+
+  <h3>3.2 Deteccao dinamica</h3>
+  <ul>
+    <li>Registro de callback via <code>registerAudioDeviceCallback</code>.</li>
+    <li>Tratamento para conexao e desconexao de audio Bluetooth.</li>
+  </ul>
+
+  <h3>3.3 Facilitar conexao Bluetooth</h3>
+  <ul>
+    <li>Intent para <code>Settings.ACTION_BLUETOOTH_SETTINGS</code>.</li>
+    <li>Extras de filtro para facilitar o fluxo de conexao.</li>
+  </ul>
+
+  <h3>3.4 Interface do app</h3>
+  <ul>
+    <li>Botao para verificar audio.</li>
+    <li>Lista de tarefas/funcoes relacionadas ao contexto da empresa Doma.</li>
+    <li>Status atualizado de speaker e Bluetooth.</li>
+  </ul>
+
+  <h2>4. Evidencias para anexar antes da entrega</h2>
+  <p>Inserir os arquivos abaixo na pasta <code>docs/evidencias/</code>:</p>
+  <ol>
+    <li><code>01_android_studio_emulador.png</code></li>
+    <li><code>02_app_rodando_wearos.png</code></li>
+    <li><code>03_captura_app_complementar_wear.png</code></li>
+    <li><code>04_notificacao_envio_captura.png</code></li>
+  </ol>
+
+  <h2>5. Como executar</h2>
+  <ol>
+    <li>Abrir o projeto no Android Studio.</li>
+    <li>Sincronizar Gradle.</li>
+    <li>Criar emulador Wear OS API 30 no Device Manager.</li>
+    <li>Executar o app no emulador.</li>
+    <li>Gerar capturas e anexar em <code>docs/evidencias/</code>.</li>
+  </ol>
+
+  <h2>6. Entrega final (conforme roteiro)</h2>
+  <ol>
+    <li>Armazenar o projeto no Git.</li>
+    <li>Anexar esta documentacao em PDF no repositorio.</li>
+    <li>Compartilhar link do repositorio com o tutor.</li>
+    <li>Respeitar o prazo da disciplina.</li>
+  </ol>
+</body>
+</html>

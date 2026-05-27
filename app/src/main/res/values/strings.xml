@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ListaDeTarefas</string>
+    <string name="verificar_audio">Verificar audio Bluetooth</string>
+</resources>
