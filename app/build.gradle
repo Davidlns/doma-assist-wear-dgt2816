@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.listadetarefas'
+    namespace 'com.example.domaassistwear'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.listadetarefas"
+        applicationId "com.example.domaassistwear"
         minSdk 30
         targetSdk 34
         versionCode 1

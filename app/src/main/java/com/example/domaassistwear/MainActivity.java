@@ -1,4 +1,4 @@
-package com.example.listadetarefas;
+package com.example.domaassistwear;
 
 import android.app.Activity;
 import android.media.AudioDeviceCallback;
@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
         tarefas.add("Instrucao de treinamento por voz");
         tarefas.add("Lembrete de notificacoes importantes");
 
-        adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, tarefas);
+        adapter = new ArrayAdapter<>(this, R.layout.item_tarefa, tarefas);
         listViewTarefas.setAdapter(adapter);
 
         btnVerificarAudio.setOnClickListener(v -> verificarAudioEConexaoBluetooth());

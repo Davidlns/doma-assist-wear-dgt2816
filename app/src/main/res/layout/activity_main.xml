@@ -3,19 +3,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="12dp">
+    android:paddingStart="28dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="28dp"
+    android:paddingBottom="10dp">
 
     <Button
         android:id="@+id/btnVerificarAudio"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/verificar_audio" />
+        android:layout_height="48dp"
+        android:minHeight="0dp"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:text="@string/verificar_audio"
+        android:textSize="12sp" />
 
     <ListView
         android:id="@+id/listViewTarefas"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="8dp"
-        android:layout_weight="1" />
+        android:layout_marginTop="6dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:fadingEdgeLength="12dp"
+        android:requiresFadingEdge="vertical" />
 
 </LinearLayout>

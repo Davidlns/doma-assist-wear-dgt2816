@@ -1,4 +1,4 @@
-package com.example.listadetarefas;
+package com.example.domaassistwear;
 
 import android.content.Context;
 import android.content.Intent;

@@ -3,7 +3,7 @@
 ## 1. Identificacao
 
 - Disciplina: DGT2816 - Interacao com sensores de smartphones e wearables
-- Projeto: ListaDeTarefas (Wear OS)
+- Projeto: Doma Assist Wear (Wear OS)
 - Objetivo: app para comunicacao/acessibilidade com foco em uso de audio e deteccao de saidas de audio.
 
 ## 2. Microatividades executadas no projeto
@@ -16,8 +16,8 @@
 ### Microatividade 2 - Novo projeto no Android Studio
 
 - Projeto Wear OS criado com base em `No Activity`.
-- Nome: `ListaDeTarefas`.
-- Pacote: `com.example.listadetarefas`.
+- Nome: `Doma Assist Wear`.
+- Pacote: `com.example.domaassistwear`.
 - Min SDK: API 30.
 
 ### Microatividade 3 - Arquivos de logica e configuracoes

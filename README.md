@@ -1,11 +1,11 @@
-# Trabalho Pratico DGT2816 - Interacao com sensores de smartphones e wearables
+# Doma Assist Wear - Trabalho Pratico DGT2816
 
 Projeto Wear OS baseado no roteiro fornecido para a disciplina, com foco em deteccao de saidas de audio, suporte a acessibilidade e integracao com Bluetooth.
 
 ## Nome do app
 
-- `ListaDeTarefas`
-- `Package`: `com.example.listadetarefas`
+- `Doma Assist Wear`
+- `Package`: `com.example.domaassistwear`
 - `Minimum SDK`: API 30 (Android 11)
 
 ## Funcionalidades implementadas
@@ -23,8 +23,8 @@ Projeto Wear OS baseado no roteiro fornecido para a disciplina, com foco em dete
 
 ## Estrutura principal
 
-- `app/src/main/java/com/example/listadetarefas/MainActivity.java`
-- `app/src/main/java/com/example/listadetarefas/AudioHelper.java`
+- `app/src/main/java/com/example/domaassistwear/MainActivity.java`
+- `app/src/main/java/com/example/domaassistwear/AudioHelper.java`
 - `app/src/main/res/layout/activity_main.xml`
 - `app/src/main/AndroidManifest.xml`
 - `docs/Documentacao_Trabalho_Pratico.pdf`
