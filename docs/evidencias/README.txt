@@ -1,6 +1,6 @@
-Coloque aqui as capturas de tela exigidas no roteiro:
+Capturas anexadas:
 
 01_android_studio_emulador.png
 02_app_rodando_wearos.png
-03_captura_app_complementar_wear.png
-04_notificacao_envio_captura.png
+
+Observacao: as capturas pelo app complementar do Wear dependem de um relogio Wear OS fisico pareado com smartphone. Como o ambiente usado foi o emulador, a validacao visual foi feita pelo Android Studio.

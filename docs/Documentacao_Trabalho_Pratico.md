@@ -38,7 +38,8 @@
 ### Microatividade 5 - Capturas com app complementar
 
 - Roteiro de captura com app complementar previsto.
-- Evidencias visuais devem ser anexadas pelo aluno em `docs/evidencias/`.
+- A captura por app complementar exige wearable real pareado com smartphone.
+- Como o ambiente disponivel foi o emulador Wear OS, a evidencia visual foi feita pelo Android Studio.
 
 ## 3. Implementacao do Trabalho Pratico (audio e acessibilidade)
 
@@ -74,12 +75,12 @@ Implementado em `activity_main.xml` e `MainActivity.java`:
 
 ## 4. Evidencias para anexar antes da entrega
 
-Inserir os arquivos abaixo na pasta `docs/evidencias/`:
+Arquivos anexados na pasta `docs/evidencias/`:
 
 1. `01_android_studio_emulador.png`
 2. `02_app_rodando_wearos.png`
-3. `03_captura_app_complementar_wear.png`
-4. `04_notificacao_envio_captura.png`
+
+Observacao: as capturas `03_captura_app_complementar_wear.png` e `04_notificacao_envio_captura.png` dependem de relogio Wear OS fisico pareado com smartphone. Sem esse dispositivo, a execucao foi comprovada por emulador Wear OS.
 
 ## 5. Como executar
 

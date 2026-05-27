@@ -31,12 +31,12 @@ Projeto Wear OS baseado no roteiro fornecido para a disciplina, com foco em dete
 
 ## Evidencias para entrega
 
-As evidencias de execucao/captura devem ser geradas por voce no Android Studio e no app complementar do Wear:
+As evidencias de execucao/captura foram organizadas na pasta `docs/evidencias/`.
 
-- Captura do app no emulador Wear OS.
-- Captura feita pelo app complementar no smartphone.
+- `01_android_studio_emulador.png`: Device Manager com emulador Wear OS criado.
+- `02_app_rodando_wearos.png`: app executando no emulador Wear OS.
 
-Use a pasta `docs/evidencias/` para anexar as imagens antes da submissao final.
+A captura pelo app complementar do Wear depende de um wearable real pareado com smartphone. Como o ambiente utilizado foi o emulador Wear OS, a validacao visual foi feita pelo Android Studio.
 
 ## Como abrir
 
